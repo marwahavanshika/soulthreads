@@ -1,4 +1,12 @@
-@tailwind base;
+@tailwind base; /* html tags */
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .primary{
+        @apply bg-[#ffe7e7]
+    }
+    .secondary {
+        @apply bg-[#4f7a6a]
+    }
+}
