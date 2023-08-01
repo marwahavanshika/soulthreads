@@ -329,7 +329,7 @@ export default function Home() {
                 />
               </div>
               <h2 className="text-xl font-medium title-font text-black-900 mt-5">
-                Women: Embrace Ethical Eleganc
+                Women: Embrace Ethical Elegance
               </h2>
               <p className="text-base leading-relaxed mt-2">
                 Celebrate your individuality with our eco-friendly women's

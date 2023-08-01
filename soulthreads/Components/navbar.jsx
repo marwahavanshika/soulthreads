@@ -21,10 +21,10 @@ const Navbar = () => {
           <span className="ml-3 text-xl font-extrabold">SoulThreads</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
-          <Link href={"/"} className="mr-5 hover:border-b-4 border-[#a3f3d6] font-bold" >PAGE 1</Link>
-          <Link href={"/"} className="mr-5 hover:border-b-4 border-[#a3f3d6] font-bold">PAGE 2 </Link>
-          <Link href={"/"}className="mr-5  hover:border-b-4 border-[#a3f3d6] font-bold">ED RESOURCES</Link>
-          <Link href={"/"}className="mr-5 hover:border-b-4 border-[#a3f3d6] font-bold">ABOUT US</Link>
+          <Link href={"/women"} className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold" >WOMEN</Link>
+          <Link href={"/men"} className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold">MEN</Link>
+          <Link href={"/kids"}className="mr-5  hover:border-b-4 border-[#ffe7e7] font-bold">KIDS</Link>
+          <Link href={"/about"}className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold">ABOUT US</Link>
         </nav>
 
       </div>
