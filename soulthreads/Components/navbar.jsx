@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <header className="text-black body-font bg-[#acc4b2]">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <Link href={"/"} className="flex title-font font-medium items-center text-black mb-4 md:mb-0">
+        <Link
+          href={"/"}
+          className="flex title-font font-medium items-center text-black mb-4 md:mb-0"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -21,12 +24,37 @@ const Navbar = () => {
           <span className="ml-3 text-xl font-extrabold">SoulThreads</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
-          <Link href={"/women"} className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold" >WOMEN</Link>
-          <Link href={"/men"} className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold">MEN</Link>
-          <Link href={"/kids"}className="mr-5  hover:border-b-4 border-[#ffe7e7] font-bold">KIDS</Link>
-          <Link href={"/about"}className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold">ABOUT US</Link>
+          <Link
+            href={"/women"}
+            className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold"
+          >
+            WOMEN
+          </Link>
+          <Link
+            href={"/men"}
+            className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold"
+          >
+            MEN
+          </Link>
+          <Link
+            href={"/kids"}
+            className="mr-5  hover:border-b-4 border-[#ffe7e7] font-bold"
+          >
+            KIDS
+          </Link>
+          <Link
+            href={"/NGO"}
+            className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold"
+          >
+            NGO
+          </Link>
+          <Link
+            href={"/about"}
+            className="mr-5 hover:border-b-4 border-[#ffe7e7] font-bold"
+          >
+            ABOUT US
+          </Link>
         </nav>
-
       </div>
     </header>
   );

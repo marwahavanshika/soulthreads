@@ -9,4 +9,7 @@
     .secondary {
         @apply bg-[#4f7a6a]
     }
+    .tertiary{
+        @apply bg-[#acc4b2]
+    }
 }
